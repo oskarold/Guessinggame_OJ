@@ -1,0 +1,13 @@
+1. “Git add” tar den modifierade filen i ditt “working directory” och placerar den i ett “staging area”, 
+en kö för att bli committed senare.. Vilket, om allt gått rätt, brukar följas av att man gör en “git commit” 
+vilket skapar en ny “version” LOKALT av ditt projekt som du arbetar i med dem nya ändringarna. 
+Tillsammans med en kommentar om vad du har ändrat.
+
+2.Efter att du har gjort din “git commit” kan det vara lägligt att göra en “git push” som helt enkelt lägger till dina ändringar i ditt “Remote repository”.
+“Git pull” hämtar från ditt remote repository och matchar filerna så att dem är likadana om det finns skillnader mellan det du har lokalt och det i “Remote repository”.
+
+3. “Git logg” används för att se alla ändringar, du får upp de olika commitsen med de olika meddelandena om vilka ändringar som har utförts.
+
+“Git status” används för att se vilken branch du är på och om du har gjort “Git add” och då har ändringar som du kan köra en “Git commit” på.
+
+4. Det är bra att formulera sig kortfattat och beskriva med få ord vilka ändringar som har utförts.
